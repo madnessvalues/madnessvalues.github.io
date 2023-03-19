@@ -13,13 +13,13 @@ ideologies = [
         "name": "Cashewism",
         "stats": {
             "econ": 80,
-            "dipl": 80,
-            "govt": 55,
-            "scty": 70
+            "dipl": 20,
+            "govt": 40,
+            "scty": 30
         }
     },
     {
-        "name": "Seanism",
+        "name": "???",
         "stats": {
             "econ": 50,
             "dipl": 60,
