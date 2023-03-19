@@ -164,7 +164,7 @@ stats"></a></div></noscript>
         var ctx = c.getContext("2d")
         c.width = 800;
         c.height = 650;
-        ctx.fillStyle = "#EEEEEE"
+        ctx.fillStyle = "#580808"
         ctx.fillRect(0,0,800,650);
 
         img = document.getElementById("img-equality")
@@ -184,7 +184,7 @@ stats"></a></div></noscript>
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 530, 100, 100)
 
-        ctx.fillStyle="#222222"
+        ctx.fillStyle="#772222"
         ctx.fillRect(120, 180, 560, 80)
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
@@ -205,10 +205,10 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 544, 5.6*tradition-2, 72)
         ctx.fillStyle="#B16E08"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
-        ctx.fillStyle="#222222"
-        ctx.font="700 80px Montserrat"
+        ctx.fillStyle="#5D0002"
+        ctx.font="700 60px Arial"
         ctx.textAlign="left"
-        ctx.fillText("8values", 20, 90)
+        ctx.fillText("MadnessValues", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
@@ -224,9 +224,10 @@ stats"></a></div></noscript>
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("Madvalues.github.io", 780, 60)
+        ctx.fillText("madnessvalues.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
+        ctx.font="300 30px Impact"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
