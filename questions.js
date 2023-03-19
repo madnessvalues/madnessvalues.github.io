@@ -251,7 +251,7 @@ questions = [
     },
     // TRADITIONAL AND INNOVATIVE AXIS
     {
-        "question": "Mobile animation is an welcome step in animation",
+        "question": "Mobile animation is a step forward in animation",
         "effect": {
             "econ": 0,
             "dipl": 0,
