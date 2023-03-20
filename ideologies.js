@@ -1,4 +1,4 @@
-// TODO: Seanism
+
 ideologies = [
     {
         "name": "Ignoramus",

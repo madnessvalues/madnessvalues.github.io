@@ -33,7 +33,7 @@ questions = [
         }
     },
     {
-        "question": "I think the Madness Bible does actually exist somewhere out there",
+        "question": "I think the Madness Bible does actually exist somewhere out there.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -151,7 +151,7 @@ questions = [
     },
     // CHARACTER AND CONTENT AXIS
     {
-        "question": "You are not in the Madness Community if you do not animate or make art",
+        "question": "You are not in the Madness Community if you do not animate or make art.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -251,7 +251,7 @@ questions = [
     },
     // TRADITIONAL AND INNOVATIVE AXIS
     {
-        "question": "Mobile animation is a step forward in animation",
+        "question": "Mobile animation is a step forward in animation.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -387,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "People need to always listen to the mod team",
+        "question": "People need to always listen to the mod team.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -559,7 +559,7 @@ questions = [
         }
     },
     {
-        "question": "The people who founded our server are of more importance",
+        "question": "The people who founded our server are of more importance.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -586,7 +586,7 @@ questions = [
         }
     },
     {
-        "question": "Friendships between servers is preferable to a large united server",
+        "question": "Friendships between servers is preferable to a large united server.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -613,7 +613,7 @@ questions = [
         }
     },
     {
-        "question": "If random people were to join our group, it's best they respect our customs",
+        "question": "If random people were to join our group, it's best they respect our customs.",
         "effect": {
             "econ": 0,
             "dipl": -10,
