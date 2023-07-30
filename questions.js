@@ -4,9 +4,9 @@ questions = [
     // govt: neg = expression; pos = restrictive
     // scty: neg = traditional; pos = innovative
     
-    // ABSTRACT/MISC QUESTIONS
+    // ABSTRACT/MISC/ESOTERIC QUESTIONS
     {
-        "question": "I resonate with the statement \"Madness is dead.\"",
+        "question": "The phrase \"Madness is dead.\" is so truer now than ever..,",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -24,7 +24,7 @@ questions = [
         }
     },
     {
-        "question": "The FnF community and its consequences has been a disaster for the Madness Community.",
+        "question": "The FnF community and its consequences have been a disaster for the Madness Community.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -60,7 +60,7 @@ questions = [
         }
     },
     {
-        "question": "Kelzad did nothing wrong.",
+        "question": "Kelzad is the anti-hero of the Madness community.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -69,7 +69,7 @@ questions = [
         }
     },
     {
-        "question": "Kobler is the ideal image of moderation.",
+        "question": "Kobler moderation isn't what we deserved, but what we needed.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -78,7 +78,7 @@ questions = [
         }
     },
     {
-        "question": "Female OC's have corrupted the moral compass.",
+        "question": "Female OCs have corrupted the moral compass.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -94,16 +94,16 @@ questions = [
             "govt": 0,
             "scty": -5
         }
-    },
+    },/*
     {
-        "question": "Real madness is only a small portion of the communities true potential.",
+        "question": "Krill madness is only a small portion of the communities true potential.",
         "effect": {
             "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 10
         }
-    },
+    },*/
     {
         "question": "Some parts of the community are more deserving than others.",
         "effect": {
@@ -205,7 +205,7 @@ questions = [
         }
     },
     {
-        "question": "The use of other works for creative illustration could be beneficial.",
+        "question": "The use of other people's works for creative illustration could be beneficial.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -262,7 +262,7 @@ questions = [
     {
         "question": "It's better for people to have a similar yet professional animation style.",
         "effect": {
-            "econ": 0,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
             "scty": 10
@@ -503,7 +503,7 @@ questions = [
             "scty": 0
         }
     },
-    // INDEPENDANT AND CONGLOMARATE AXIS
+    // INDEPENDANT AND CONGLOMERATE AXIS
     {
         "question": "It's best for our group to be as isolated as possible.",
         "effect": {
@@ -545,7 +545,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },

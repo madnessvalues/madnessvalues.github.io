@@ -21,10 +21,10 @@ ideologies = [
     {
         "name": "???",
         "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 100,
-            "scty": 100
+            "econ": 65,
+            "dipl": 40,
+            "govt": 60,
+            "scty": 50
         }
     }
 ];
