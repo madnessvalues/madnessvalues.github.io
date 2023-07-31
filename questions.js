@@ -187,7 +187,7 @@ questions = [
         }
     },
     {
-        "question": "If you contribute to the emotions and the servers of the community, you are in it.",
+        "question": "If you contribute to the emotions and the servers of the community, you are in said community..",
         "effect": {
             "econ": 10,
             "dipl": 0,
