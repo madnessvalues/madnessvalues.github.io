@@ -3,28 +3,34 @@ ideologies = [
     {
         "name": "Ignoramus",
         "stats": {
-            "econ": 50,
+            "char": 50,
             "dipl": 50,
             "govt": 50,
-            "scty": 50
+            "scty": 50,
+            "dftn": 50,
+            "nrml": 50
         }
     },
     {
         "name": "Cashewism",
         "stats": {
-            "econ": 80,
+            "char": 80,
             "dipl": 20,
             "govt": 40,
-            "scty": 30
+            "scty": 30,
+            "dftn": 0,
+            "nrml": 10
         }
     },
     {
         "name": "???",
         "stats": {
-            "econ": 65,
+            "char": 65,
             "dipl": 40,
             "govt": 60,
-            "scty": 50
+            "scty": 50,
+            "dftn": 10,
+            "nrml": 80
         }
     }
 ];

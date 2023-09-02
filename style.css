@@ -87,7 +87,7 @@ div.center {
     border-radius: 8pt;
     padding: 6pt;
     color: white;
-    width: 50%;
+    width: 100%;
     min-width: 488pt;
     text-align: center;
     text-decoration: none;
@@ -96,14 +96,14 @@ div.center {
     margin: auto;
 }
 img.quadcolumn {
-    width: 23.75%;
+    width: 15.416666666666666666666666666667%;
     transition: transform .3s;
 }
 img.quadcolumn:hover {
     transform: scale(1.05);
   }
 div.quadcolumn {
-    width: 23.75%;
+    width: 15.416666666666666666666666666667%;
 }
 div.axis_name {
     color: #dddddd;
@@ -147,8 +147,12 @@ div.axis_name {
 .stronglyAgree:hover, .stronglyAgree:focus { background: #ca0202; }
 .agree { background: #ac2e2e; }
 .agree:hover, .agree:focus { background: #942929; }
+.lightAgree { background: #744c4c; }
+.lightAgree:hover, .lightAgree:focus { background: #502323; }
 .neutral { background: #585858; }
 .neutral:hover, .neutral:focus { background: #818080; }
+.lightDisagree { background: #474745; }
+.lightDisagree:hover, .lightDisagree:focus { background: #363636; }
 .disagree { background: #221918; }
 .disagree:hover, .disagree:focus { background: #2c120f; }
 .stronglyDisagree { background: #000000; }
@@ -230,18 +234,18 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
-div.equality {
-    background-color: #669900;
+div.character {
+    background-color: #009F21;
     text-align: left;
     border-right-style: solid;
 }
-div.wealth {
-    background-color: #E94522;
+div.content {
+    background-color: #FF3B14;
     text-align: right;
     border-left-style: solid;
 }
 div.liberty {
-    background-color: #8E3535;
+    background-color: #00D2FF;
     text-align: left;
     border-right-style: solid;
 }
@@ -250,18 +254,18 @@ div.authority {
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
-    background-color: #663366;
+div.group {
+    background-color: #B200FF;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
-    background-color: #692A1E;
+div.small {
+    background-color: #9F4B00;
     text-align: left;
     border-right-style: solid;
 }
 div.progress {
-    background-color: #B16E08;
+    background-color: #FFC500;
     text-align: right;
     border-left-style: solid;
 }
@@ -270,6 +274,27 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+div.defined {
+    background-color: #A61C00;
+    text-align: left;
+    border-right-style: solid;
+}
+div.ambiguity {
+    background-color: #65A061;
+    text-align: left;
+    border-left-style: solid;
+}
+div.vanilla {
+    background-color: #FCFFDD;
+    text-align: left;
+    border-right-style: solid;
+}
+div.esoteric {
+    background-color: #3500AE;
+    text-align: left;
+    border-left-style: solid;
+}
+
 span.weight-300 {
     font-weight: 300;
 }

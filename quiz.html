@@ -23,7 +23,9 @@
 <p class="question" id="question-text"></p>
 <button class="answer button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
 <button class="answer button agree" onclick="next_question( 0.5)">Agree</button> <br>
+<button class="answer button lightAgree" onclick="next_question( 0.25)">Slightly Agree</button> <br>
 <button class="answer button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
+<button class="answer button lightDisagree" onclick="next_question(-0.25)">Slightly Disagree</button> <br>
 <button class="answer button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
 <button class="answer button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
@@ -60,20 +62,24 @@ stats"></a></div></noscript>
             [questions[randomIndex], questions[currentIndex]];
     }
 
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
-    let econ_array = new Array(questions.length);
+    var max_char, max_dipl, max_govt, max_scty, max_dftn, max_nrml; // Max possible scores
+    max_char = max_dipl = max_govt = max_scty = max_dftn = max_nrml = 0;
+    let char_array = new Array(questions.length);
     let dipl_array = new Array(questions.length);
     let govt_array = new Array(questions.length);
     let scty_array = new Array(questions.length);
+    let dftn_array = new Array(questions.length);
+    let nrml_array = new Array(questions.length);
     var qn = 0; // Question number
 
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
+        max_char += Math.abs(questions[i].effect.char)
         max_dipl += Math.abs(questions[i].effect.dipl)
         max_govt += Math.abs(questions[i].effect.govt)
         max_scty += Math.abs(questions[i].effect.scty)
+        max_dftn += Math.abs(questions[i].effect.dftn)
+        max_nrml += Math.abs(questions[i].effect.nrml)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -89,10 +95,12 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ_array[qn] = mult*questions[qn].effect.econ
+        char_array[qn] = mult*questions[qn].effect.char
         dipl_array[qn] = mult*questions[qn].effect.dipl
         govt_array[qn] = mult*questions[qn].effect.govt
         scty_array[qn] = mult*questions[qn].effect.scty
+        dftn_array[qn] = mult*questions[qn].effect.dftn
+        nrml_array[qn] = mult*questions[qn].effect.nrml
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -114,15 +122,19 @@ stats"></a></div></noscript>
     }
 
     function results() {
-        let final_econ = econ_array.reduce((a, b) => a + b, 0)
+        let final_char = char_array.reduce((a, b) => a + b, 0)
         let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
         let final_govt = govt_array.reduce((a, b) => a + b, 0)
         let final_scty = scty_array.reduce((a, b) => a + b, 0)
+        let final_dftn = dftn_array.reduce((a, b) => a + b, 0)
+        let final_nrml = nrml_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
-            + `?e=${calc_score(final_econ,max_econ)}`
-            + `&d=${calc_score(final_dipl,max_dipl)}`
-            + `&g=${calc_score(final_govt,max_govt)}`
+            + `?e=${calc_score(final_char,max_char)}`
+            + `&g=${calc_score(final_dipl,max_dipl)}`
+            + `&l=${calc_score(final_govt,max_govt)}`
             + `&s=${calc_score(final_scty,max_scty)}`
+            + `&d=${calc_score(final_dftn,max_dftn)}`
+            + `&n=${calc_score(final_nrml,max_nrml)}`
     }
 </script>
 </body>
