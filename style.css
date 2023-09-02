@@ -149,8 +149,13 @@ div.axis_name {
 .agree:hover, .agree:focus { background: #942929; }
 .lightAgree { background: #744c4c; }
 .lightAgree:hover, .lightAgree:focus { background: #502323; }
-.neutral { background: #585858; }
-.neutral:hover, .neutral:focus { background: #818080; }
+.neutral { text-shadow:
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+    background: #dddbc2; }
+.neutral:hover, .neutral:focus { background: #e9e8e3; }
 .lightDisagree { background: #474745; }
 .lightDisagree:hover, .lightDisagree:focus { background: #363636; }
 .disagree { background: #221918; }
