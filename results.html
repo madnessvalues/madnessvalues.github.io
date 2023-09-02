@@ -270,16 +270,16 @@ stats"></a></div></noscript>
         if (small     > 24) {ctx.fillText(small + "%", 130, 357.5)}
         if (liberty   > 24) {ctx.fillText(liberty + "%", 130, 477.5)}
         if (tradition > 24) {ctx.fillText(tradition + "%", 130, 597.5)}
-        if (defined   > 24) {ctx.fillText(defined + "%", 130, 617.5)}
-        if (vanilla   > 24) {ctx.fillText(vanilla + "%", 130, 737.5)}
+        if (defined   > 24) {ctx.fillText(defined + "%", 130, 717.5)}
+        if (vanilla   > 24) {ctx.fillText(vanilla + "%", 130, 837.5)}
 
         ctx.textAlign="right"
         if (content   > 24) {ctx.fillText(content + "%", 670, 237.5)}
         if (group     > 24) {ctx.fillText(group + "%", 670, 357.5)}
         if (authority > 24) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 24) {ctx.fillText(progress + "%", 670, 597.5)}
-        if (ambiguity > 24) {ctx.fillText(ambiguity + "%", 670, 617.5)}
-        if (esoteric  > 24) {ctx.fillText(vanilla + "%", 670, 737.5)}
+        if (ambiguity > 24) {ctx.fillText(ambiguity + "%", 670, 717.5)}
+        if (esoteric  > 24) {ctx.fillText(esoteric + "%", 670, 837.5)}
 
         ctx.fillStyle="#AF1002"
         ctx.font="300 22px Montserrat"
@@ -287,6 +287,7 @@ stats"></a></div></noscript>
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.font="300 30px Impact"
+        ctx.fillStyle="#FFFF00"
         ctx.fillText("Judgemental Axis: " + document.getElementById("judge-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Rulebase Axis: " + document.getElementById("state-label").innerHTML, 400, 415)

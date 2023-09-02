@@ -240,7 +240,7 @@ questions = [
         }
     },
     {
-        "question": "If you contribute to the emotions and the servers of the community, you are in said community.",
+        "question": "If you contribute to the emotions of the community, you are in said community.",
         "effect": {
             "char": 10,
             "dipl": 2,
@@ -301,7 +301,7 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 0,
-            "dfnd": 0,
+            "dftn": 0,
             "nrml": 0
         }
     },
@@ -648,7 +648,7 @@ questions = [
         }
     },
     {
-        "question": "We don't need outsiders telling us how to run our server.",
+        "question": "We don't need outsiders telling us how to run our side of the community.",
         "effect": {
             "char": 0,
             "dipl": -7,
