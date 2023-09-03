@@ -832,7 +832,7 @@ questions = [
             "govt": 0,
             "scty": -5,
             "dftn": 5,
-            "nrml": 0
+            "nrml": -3
         }
     },
     {
