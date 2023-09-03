@@ -125,7 +125,7 @@ questions = [
             "govt": 0,
             "scty": 10,
             "dftn": 0,
-            "nrml": -10
+            "nrml": -5
         }
     },
     {
@@ -191,7 +191,7 @@ questions = [
             "govt": 0,
             "scty": 5,
             "dftn": -5,
-            "nrml": -25
+            "nrml": -10
         }
     },
     // CHARACTER AND CONTENT AXIS
@@ -225,7 +225,7 @@ questions = [
             "govt": 0,
             "scty": 0,
             "dftn": 0,
-            "nrml": -5
+            "nrml": -2
         }
     },
     {
@@ -258,7 +258,7 @@ questions = [
             "govt": 0,
             "scty": 0,
             "dftn": 0,
-            "nrml": 5
+            "nrml": 0
         }
     },
     {   // chat what am i looking at
@@ -280,7 +280,7 @@ questions = [
             "govt": -5,
             "scty": -2,
             "dftn": 10,
-            "nrml": -10
+            "nrml": 0
         }
     },
     {
@@ -291,7 +291,7 @@ questions = [
             "govt": -2,
             "scty": 0,
             "dftn": 0,
-            "nrml": -2
+            "nrml": 0
         }
     },
     {
@@ -325,7 +325,7 @@ questions = [
             "govt": 5,
             "scty": 10,
             "dftn": 0,
-            "nrml": 2
+            "nrml": 0
         }
     },
     {
@@ -336,7 +336,7 @@ questions = [
             "govt": -2,
             "scty": 3,
             "dftn": 10,
-            "nrml": -1
+            "nrml": 0
         }
     },
     {
@@ -369,7 +369,7 @@ questions = [
             "govt": 0,
             "scty": -10,
             "dftn": 2,
-            "nrml": -2
+            "nrml": 0
         }
     },
     /*{     // unsure how answers to this would be measured because if you say this is true would you get tradition and character but then if you say it's false you get "innovation" and "content" imo the current answers that can be given dont apply to this question as you agree with this you *HAVE* to go against people that disagree but the agree and disagree are two different questions if you agree it's that people can't get the expectations that the bar has been raised to in modern day but if you disagree you're saying that people ..... wait WHAT THE HELL DOES THIS QUESTION EVEN MEAN!???? OF COURSE **NEW** ANIMATORS CAN'T COMPETE AGAINST PEOPLE THAT HAVE BEEN ANIMATING FOR 20 YEARS THIS QUESTION IS STUPID F MINUS!!! YOU FAIL
@@ -400,7 +400,7 @@ questions = [
             "govt": -5,
             "scty": -10,
             "dftn": 0,
-            "nrml": -3
+            "nrml": 0
         }
     },
     {
@@ -422,7 +422,7 @@ questions = [
             "govt": 0,
             "scty": -10,
             "dftn": 5,
-            "nrml": -5
+            "nrml": -2
         }
     },
     {
@@ -466,7 +466,7 @@ questions = [
             "govt": 0,
             "scty": 5,
             "dftn": 5,
-            "nrml": -5
+            "nrml": 0
         }
     },
     // EXPRESSION AND RESTRICTIVE AXIS
@@ -821,7 +821,7 @@ questions = [
             "govt": 0,
             "scty": 5,
             "dftn": -10,
-            "nrml": -5
+            "nrml": 0
         }
     },
     {
