@@ -16,21 +16,21 @@ ideologies = [
         "stats": {
             "char": 80,
             "dipl": 20,
-            "govt": 40,
-            "scty": 30,
-            "dftn": 65,
-            "nrml": 45
+            "govt": 35,
+            "scty": 34,
+            "dftn": 55,
+            "nrml": 35
         }
     },
     {
         "name": "Esoteric Cashewism",
         "stats": {
-            "char": 70,
+            "char": 75,
             "dipl": 20,
-            "govt": 30,
-            "scty": 30,
-            "dftn": 65,
-            "nrml": 20
+            "govt": 25,
+            "scty": 25,
+            "dftn": 60,
+            "nrml": 0
         }
     },
     {
