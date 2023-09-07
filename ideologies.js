@@ -18,19 +18,41 @@ ideologies = [
             "dipl": 20,
             "govt": 40,
             "scty": 30,
-            "dftn": 0,
-            "nrml": 10
+            "dftn": 65,
+            "nrml": 45
         }
     },
     {
-        "name": "???",
+        "name": "Esoteric Cashewism",
         "stats": {
-            "char": 65,
-            "dipl": 40,
-            "govt": 60,
-            "scty": 50,
-            "dftn": 10,
+            "char": 70,
+            "dipl": 20,
+            "govt": 30,
+            "scty": 30,
+            "dftn": 65,
+            "nrml": 20
+        }
+    },
+    {
+        "name": "Extilism",
+        "stats": {
+            "char": 40,
+            "dipl": 60,
+            "govt": 40,
+            "scty": 70,
+            "dftn": 80,
             "nrml": 80
+        }
+    },
+    {
+        "name": "Zadism",
+        "stats": {
+            "char": 30,
+            "dipl": 25,
+            "govt": 30,
+            "scty": 45,
+            "dftn": 40,
+            "nrml": 100
         }
     }
 ];

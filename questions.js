@@ -184,14 +184,47 @@ questions = [
         }
     },
     {
-        "question": "gloggy",
+        "question": "Some parts of the community have some distinction from eachother, almost like different planets.",
+        "effect": {
+            "char": 0,
+            "dipl": -5,
+            "govt": 0,
+            "scty": 0,
+            "dftn": 0,
+            "nrml": -10
+        }
+    },
+    {
+        "question": "I have witnessed Undermadness.",
         "effect": {
             "char": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 5,
-            "dftn": -5,
-            "nrml": -10
+            "scty": 0,
+            "dftn": 0,
+            "nrml": -15
+        }
+    },
+    {
+        "question": "Conspiracies based around the madness community are rather silly.",
+        "effect": {
+            "char": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "dftn": 0,
+            "nrml": 15
+        }
+    },
+    {
+        "question": "The statement 'war begin...' had a butterfly effect on the community.",
+        "effect": {
+            "char": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "dftn": 0,
+            "nrml": -5
         }
     },
     // CHARACTER AND CONTENT AXIS
@@ -803,6 +836,17 @@ questions = [
     },
     // STYLIZED AXIS QUESTIONS
     {
+        "question": "Creativity is a good thing, though it would be best if they pay homage to the groups which they belong to.",
+        "effect": {
+            "char": 5,
+            "dipl": -5,
+            "govt": 0,
+            "scty": 5,
+            "dftn": -5,
+            "nrml": 0
+        }
+    },
+    {
         "question": "The infamous \"Why don´t you animate something that doesn´t look like a ni-\" argument actually holds some weight.",
         "effect": {
             "char": 0,
@@ -843,6 +887,17 @@ questions = [
             "govt": 0,
             "scty": 0,
             "dftn": 10,
+            "nrml": 0
+        }
+    },
+    {
+        "question": "It is best that each individual animator has their own distinct animation/art style.",
+        "effect": {
+            "char": 0,
+            "dipl": -5,
+            "govt": 0,
+            "scty": 0,
+            "dftn": -10,
             "nrml": 0
         }
     }
