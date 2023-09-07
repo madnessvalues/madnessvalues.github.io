@@ -426,7 +426,7 @@ questions = [
         }
     },
     {   // toxic for what?
-        "question": "Sound design is not innovation.",
+        "question": "CSO's are not innovative.",
         "effect": {
             "char": 0,
             "dipl": 0,
