@@ -1,7 +1,7 @@
 
 ideologies = [
     {
-        "name": "Ignoramus",
+        "name": "Neutrality",
         "stats": {
             "char": 50,
             "dipl": 50,
@@ -23,6 +23,28 @@ ideologies = [
         }
     },
     {
+        "name": "Sentralism",
+        "stats": {
+            "char": 83,
+            "dipl": 63,
+            "govt": 60,
+            "scty": 55,
+            "dftn": 25,
+            "nrml": 65
+        }
+    },
+    {
+        "name": "Withdrawn Innovationist",
+        "stats": {
+            "char": 85,
+            "dipl": 35,
+            "govt": 60,
+            "scty": 70,
+            "dftn": 30,
+            "nrml": 50
+        }
+    },
+    {
         "name": "Esoteric Cashewism",
         "stats": {
             "char": 75,
@@ -34,7 +56,7 @@ ideologies = [
         }
     },
     {
-        "name": "Extilism",
+        "name": "Contentitarian",
         "stats": {
             "char": 40,
             "dipl": 60,
@@ -53,6 +75,17 @@ ideologies = [
             "scty": 45,
             "dftn": 40,
             "nrml": 100
+        }
+    },
+    {
+        "name": "Obsoletism",
+        "stats": {
+            "char": 60,
+            "dipl": 40,
+            "govt": 50,
+            "scty": 45,
+            "dftn": 45,
+            "nrml": 35
         }
     }
 ];
