@@ -69,7 +69,7 @@ ideologies = [
     {
         "name": "Zadism",
         "stats": {
-            "char": 38,
+            "char": 32,
             "dipl": 25,
             "govt": 30,
             "scty": 45,
@@ -78,7 +78,7 @@ ideologies = [
         }
     },
     {
-        "name": "Gordon Freeman",
+        "name": "Gordon Freemanism",
         "stats": {
             "char": 50,
             "dipl": 25,
