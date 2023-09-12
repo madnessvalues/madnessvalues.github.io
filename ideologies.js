@@ -69,12 +69,23 @@ ideologies = [
     {
         "name": "Zadism",
         "stats": {
-            "char": 30,
+            "char": 38,
             "dipl": 25,
             "govt": 30,
             "scty": 45,
             "dftn": 40,
-            "nrml": 100
+            "nrml": 80
+        }
+    },
+    {
+        "name": "Gordon Freeman",
+        "stats": {
+            "char": 50,
+            "dipl": 25,
+            "govt": 75,
+            "scty": 40,
+            "dftn": 50,
+            "nrml": 50
         }
     },
     {
