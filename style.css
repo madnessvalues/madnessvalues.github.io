@@ -74,6 +74,22 @@ h2 {
     margin-top: 12pt;
     margin-bottom: 10pt;
 }
+h5 {
+    color: #cacaca;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 16pt;
+    line-height: 26pt;
+    margin-top: 4pt;
+    margin-bottom: 5pt;
+}
+h6 {
+    color: #cfcfcf;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 14pt;
+    line-height: 26pt;
+    margin-top: 4pt;
+    margin-bottom: 5pt;
+}
 li {
     font-size: 16pt;
     text-indent: 16pt;
