@@ -847,7 +847,7 @@ questions = [
         }
     },
     {
-        "question": "The infamous \"Why don´t you animate something that doesn´t look like a ni-\" argument actually holds some weight.",
+        "question": "The infamous \"Why don´t you animate something that doesn´t look like a retard\" argument actually holds some weight.",
         "effect": {
             "char": 0,
             "dipl": 0,
